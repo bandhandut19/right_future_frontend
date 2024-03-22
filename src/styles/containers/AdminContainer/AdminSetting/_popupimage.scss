@@ -1,0 +1,17 @@
+@import "../../../abstract/variables";
+@import "../../../responsive/breakpoints";
+.preview_image {
+  .img_preview {
+    width: 420px !important;
+    height: 380px;
+    margin-bottom: 20px !important;
+    @include breakpoints(portraitTablet) {
+      width: 100% !important;
+      height: 250px !important;
+    }
+    .popupimage {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

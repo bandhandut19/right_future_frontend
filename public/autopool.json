@@ -1,0 +1,46 @@
+[
+    {
+        "name": "rahul",
+        "auto_pool": 1,
+        "show": true,
+        "level": 0,
+        "child": [
+            {
+                "name": "shesh",
+                "show": true,
+                "level": 1,
+                "child": [
+                    {
+                        "name": "fazjal",
+                        "show": true,
+                        "level": 2,
+                        "child": []
+                    },
+                    {
+                        "name": "jalal",
+                        "show": true,
+                        "level": 2,
+                        "child": []
+                    },
+                    {
+                        "name": "kamal",
+                        "level": 2,
+                        "child": []
+                    }
+                ]
+            },
+            {
+                "name": "rakhesh",
+                "show": true,
+                "level": 1,
+                "child": []
+            },
+            {
+                "name": "miya",
+                "show": true,
+                "level": 1,
+                "child": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,94 @@
+.rf_updatewallet_page_wrapper {
+  margin-top: 20px;
+  .rf_updatewallet_card {
+    padding: 25px;
+    min-height: 250px;
+    .rf_updatewallet_title {
+      text-align: start;
+      margin-bottom: 20px;
+      h2 {
+        font-size: 18px;
+        text-transform: capitalize;
+        color: $text-p-color;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+    .rf_updatewallet_field {
+      form {
+        .form_group {
+          margin: 15px 0;
+          .input_group {
+            display: flex;
+            flex-wrap: wrap;
+            label {
+              width: 100%;
+              font-weight: 600;
+              font-size: 13px;
+              margin-bottom: 10px !important;
+              color: $text-p-color;
+              transition: all 0.3s ease-in-out;
+            }
+            input {
+              width: 100%;
+              padding: 10px 8px;
+              border: $border-header;
+              outline: none;
+              border-radius: 5px;
+              color: $text-p-color;
+              background: $bg-body;
+            }
+          }
+        }
+        button {
+          margin-top: 20px;
+          width: 130px;
+          padding: 10px 8px;
+          background: $bg-thin-green;
+          box-shadow: $box-shadow-sidebar-menu;
+          color: #fff;
+          font-size: 14px;
+          font-weight: 500;
+          border: none;
+          text-transform: capitalize;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            opacity: 0.8;
+          }
+          @include breakpoints(portraitTablet) {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.input_amount {
+  display: flex;
+  flex-wrap: wrap;
+  label {
+    width: 100%;
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 10px !important;
+    color: $text-p-color;
+    transition: all 0.3s ease-in-out;
+  }
+  .input-symbol-euro {
+    position: relative !important;
+    input {
+      padding: 10px 18px !important;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='16px' width='85px'><text x='2' y='13' fill='gray' font-size='12' font-family='arial'>$</text></svg>");
+      padding-left: 12px;
+    }
+    // &:before {
+    //   position: absolute !important;
+    //   top: 0;
+    //   content: "$%%%%";
+    //   left: 5px;
+    //   z-index: 99;
+    // }
+  }
+}
